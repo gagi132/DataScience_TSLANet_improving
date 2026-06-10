@@ -127,8 +127,8 @@ run.bat
 | **Ti-MAE (Heavy)** | Multi-layer Transformer Decoder | `--pretrain_mode timae --use_fic False` |
 | **Strategy A** | Structural Minimalist Linear Decoder | `--pretrain_mode timae_linear --use_fic False` |
 | **Strategy B** | Contrastive InfoNCE Pretaining | `--pretrain_mode contrastive --use_fic False` |
-| **Strategy A + C** | **Our Finalized Framework (Linear + Boundary FIC)** | `--pretrain_mode timae_linear --use_fic True --fic_lambda 0.001` |
-| **Strategy B + C** | Contrastive Pretraining + FIC | `--pretrain_mode contrastive --use_fic True --fic_lambda 0.001` |
+| **Strategy A + C** | **Our Finalized Framework (Linear + Boundary FIC)** | `--pretrain_mode timae_linear --use_fic True --fic_lambda 0.001 --fic_layerwise True` |
+| **Strategy B + C** | Contrastive Pretraining + FIC | `--pretrain_mode contrastive --use_fic True --fic_lambda 0.001 --fic_layerwise True` |
 
 ---
 
