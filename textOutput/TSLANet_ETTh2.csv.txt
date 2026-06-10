@@ -1,0 +1,24 @@
+ETTh2_emb128_d2_ps32_pl96_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_masking_13_19  
+MSE:{'test': 0.29863646626472473, 'val': 0.20923234522342682}, MAE:{'test': 0.35233867168426514, 'val': 0.31546497344970703}
+
+ETTh2_emb128_d2_ps32_pl96_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_13_21  
+MSE:{'test': 0.28895753622055054, 'val': 0.22904404997825623}, MAE:{'test': 0.34857720136642456, 'val': 0.3287428319454193}
+
+ETTh2_emb128_d2_ps32_pl192_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_masking_13_23  
+MSE:{'test': 0.37288978695869446, 'val': 0.2860063910484314}, MAE:{'test': 0.4007476568222046, 'val': 0.3677760660648346}
+
+ETTh2_emb128_d2_ps32_pl192_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_13_25  
+MSE:{'test': 0.34475916624069214, 'val': 0.3104000985622406}, MAE:{'test': 0.39230459928512573, 'val': 0.3815368115901947}
+
+ETTh2_emb128_d2_ps32_pl336_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_masking_13_27  
+MSE:{'test': 0.3958932161331177, 'val': 0.37824249267578125}, MAE:{'test': 0.4211713671684265, 'val': 0.4222817122936249}
+
+ETTh2_emb128_d2_ps32_pl336_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_13_29  
+MSE:{'test': 0.4295773506164551, 'val': 0.409831702709198}, MAE:{'test': 0.44640210270881653, 'val': 0.43764179944992065}
+
+ETTh2_emb128_d2_ps32_pl720_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_masking_13_32  
+MSE:{'test': 0.41036319732666016, 'val': 0.6471057534217834}, MAE:{'test': 0.445724219083786, 'val': 0.5631211400032043}
+
+ETTh2_emb128_d2_ps32_pl720_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_13_34  
+MSE:{'test': 0.4290989935398102, 'val': 0.7030404210090637}, MAE:{'test': 0.4492242932319641, 'val': 0.5881549119949341}
+

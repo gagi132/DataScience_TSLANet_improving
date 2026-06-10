@@ -1,0 +1,24 @@
+custom_weather_emb64_d2_ps16_pl96_bs32_mode_masking_09_53
+MSE:{'test': 0.1511492133140564, 'val': 0.38483500480651855}, MAE:{'test': 0.20202018320560455, 'val': 0.2773325741291046}
+
+custom_weather_emb64_d2_ps16_pl96_bs32_mode_timae_10_04
+MSE:{'test': 0.14739322662353516, 'val': 0.3796086013317108}, MAE:{'test': 0.19681304693222046, 'val': 0.2731386125087738}
+
+custom_weather_emb64_d2_ps16_pl96_bs32_mode_timae_linear_10_17
+MSE:{'test': 0.14960333704948425, 'val': 0.3801068663597107}, MAE:{'test': 0.1996302455663681, 'val': 0.27336031198501587}
+
+custom_weather_emb64_d2_ps16_pl96_bs8_mode_contrastive_10_26
+MSE:{'test': 0.15431495010852814, 'val': 0.3965492844581604}, MAE:{'test': 0.20619946718215942, 'val': 0.2860276401042938}
+
+custom_weather_emb64_d2_ps16_pl96_bs32_mode_timae_linear_FIC0.01_11_07
+MSE:{'test': 0.1494911164045334, 'val': 0.3803859055042267}, MAE:{'test': 0.19962291419506073, 'val': 0.2736617922782898}
+
+custom_weather_emb64_d2_ps16_pl96_bs8_mode_contrastive_FIC0.01_11_20
+MSE:{'test': 0.15186947584152222, 'val': 0.39811447262763977}, MAE:{'test': 0.20422296226024628, 'val': 0.28457921743392944}
+
+custom_weather_emb64_d2_ps16_pl96_bs8_mode_contrastive_18_21
+MSE:{'test': 0.1531420201063156, 'val': 0.396150678396225}, MAE:{'test': 0.2048761546611786, 'val': 0.28637972474098206}
+
+custom_weather_emb64_d2_ps16_pl96_bs8_mode_contrastive_FIC0.001_19_04
+MSE:{'test': 0.15360747277736664, 'val': 0.39756694436073303}, MAE:{'test': 0.20546893775463104, 'val': 0.28665944933891296}
+

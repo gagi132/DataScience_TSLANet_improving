@@ -1,0 +1,27 @@
+weather_emb64_d3_ps64_pl96_bs64_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_14_25  
+MSE:{'test': 0.19338080286979675, 'val': 0.4951367974281311}, MAE:{'test': 0.23049315810203552, 'val': 0.324698269367218}
+
+weather_emb128_d2_ps64_pl96_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_masking_16_14  
+MSE:{'test': 0.1988680213689804, 'val': 0.5023381114006042}, MAE:{'test': 0.23338474333286285, 'val': 0.3261812627315521}
+
+weather_emb128_d2_ps16_pl96_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_16_28  
+MSE:{'test': 0.19171743094921112, 'val': 0.49616092443466187}, MAE:{'test': 0.23012793064117432, 'val': 0.3180713653564453}
+
+weather_emb128_d2_ps64_pl192_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_masking_16_45  
+MSE:{'test': 0.24274054169654846, 'val': 0.5725935101509094}, MAE:{'test': 0.2695913314819336, 'val': 0.36612004041671753}
+
+weather_emb128_d2_ps16_pl192_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_17_00  
+MSE:{'test': 0.23732273280620575, 'val': 0.5552115440368652}, MAE:{'test': 0.2670188248157501, 'val': 0.35491743683815}
+
+weather_emb128_d2_ps64_pl336_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_masking_17_18  
+MSE:{'test': 0.29524680972099304, 'val': 0.6579870581626892}, MAE:{'test': 0.30692389607429504, 'val': 0.4214503765106201}
+
+weather_emb128_d2_ps16_pl336_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_17_33  
+MSE:{'test': 0.29242002964019775, 'val': 0.6414831876754761}, MAE:{'test': 0.3063661456108093, 'val': 0.40899431705474854}
+
+weather_emb128_d2_ps64_pl720_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_masking_17_51  
+MSE:{'test': 0.37362074851989746, 'val': 0.7945218086242676}, MAE:{'test': 0.35738128423690796, 'val': 0.4976852238178253}
+
+weather_emb128_d2_ps16_pl720_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_18_06  
+MSE:{'test': 0.36831599473953247, 'val': 0.7705532908439636}, MAE:{'test': 0.35611289739608765, 'val': 0.48894602060317993}
+

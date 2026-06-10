@@ -1,0 +1,54 @@
+ETTh1_emb64_d3_ps64_pl96_bs32_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_15_07  
+MSE:{'test': 1.263736605644226, 'val': 0.8725082874298096}, MAE:{'test': 0.6932941675186157, 'val': 0.5450763702392578}
+
+ETTh1_emb64_d3_ps64_pl96_bs32_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_16_15  
+MSE:{'test': 1.2606817483901978, 'val': 0.8706178665161133}, MAE:{'test': 0.6925210952758789, 'val': 0.5437461137771606}
+
+ETTh1_emb64_d3_ps64_pl96_bs32_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_16_39  
+MSE:{'test': 1.2606817483901978, 'val': 0.8706178665161133}, MAE:{'test': 0.6925210952758789, 'val': 0.5437461137771606}
+
+ETTh1_emb64_d3_ps64_pl96_bs32_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_17_01  
+MSE:{'test': 1.2588828802108765, 'val': 0.9399880170822144}, MAE:{'test': 0.6769031286239624, 'val': 0.5424762964248657}
+
+ETTh1_emb6_d3_ps16_pl96_bs32_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_masking_18_13  
+MSE:{'test': 1.249578833580017, 'val': 0.9040116667747498}, MAE:{'test': 0.6841303110122681, 'val': 0.5452191829681396}
+
+ETTh1_emb6_d3_ps16_pl96_bs32_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_masking_18_15  
+MSE:{'test': 1.249578833580017, 'val': 0.9040116667747498}, MAE:{'test': 0.6841303110122681, 'val': 0.5452191829681396}
+
+ETTh1_emb64_d2_ps16_pl96_bs32_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_19_01  
+MSE:{'test': 1.2245690822601318, 'val': 0.8589827418327332}, MAE:{'test': 0.6880874037742615, 'val': 0.5463122129440308}
+
+ETTh1_emb64_d2_ps16_pl96_bs32_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_masking_19_02  
+MSE:{'test': 1.2543662786483765, 'val': 0.8704363703727722}, MAE:{'test': 0.6890013813972473, 'val': 0.54257732629776}
+
+ETTh1_emb64_d2_ps16_pl96_bs32_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_20_11  
+MSE:{'test': 1.0432250499725342, 'val': 0.7276008129119873}, MAE:{'test': 0.6260684132575989, 'val': 0.48476535081863403}
+
+ETTh1_emb64_d2_ps16_pl96_bs32_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_masking_20_11  
+MSE:{'test': 1.0051226615905762, 'val': 0.7402703762054443}, MAE:{'test': 0.6217562556266785, 'val': 0.4915198087692261}
+
+ETTh1_emb128_d2_ps32_pl96_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_masking_13_00  
+MSE:{'test': 0.3736759126186371, 'val': 0.6920110583305359}, MAE:{'test': 0.4001488983631134, 'val': 0.5612151622772217}
+
+ETTh1_emb128_d2_ps32_pl96_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_13_03  
+MSE:{'test': 0.3849739730358124, 'val': 0.7265008091926575}, MAE:{'test': 0.4059940576553345, 'val': 0.5740775465965271}
+
+ETTh1_emb128_d2_ps32_pl192_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_masking_13_06  
+MSE:{'test': 0.40663084387779236, 'val': 1.0483466386795044}, MAE:{'test': 0.4203963279724121, 'val': 0.6895232200622559}
+
+ETTh1_emb128_d2_ps32_pl192_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_13_08  
+MSE:{'test': 0.4290968179702759, 'val': 1.0839253664016724}, MAE:{'test': 0.43395429849624634, 'val': 0.6987415552139282}
+
+ETTh1_emb128_d2_ps32_pl336_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_masking_13_10  
+MSE:{'test': 0.4327259957790375, 'val': 1.3584188222885132}, MAE:{'test': 0.4404599368572235, 'val': 0.7969820499420166}
+
+ETTh1_emb128_d2_ps32_pl336_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_13_12  
+MSE:{'test': 0.4817984700202942, 'val': 1.4029967784881592}, MAE:{'test': 0.46503129601478577, 'val': 0.810295820236206}
+
+ETTh1_emb128_d2_ps32_pl720_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_masking_13_14  
+MSE:{'test': 0.6360613107681274, 'val': 1.68976891040802}, MAE:{'test': 0.5389891266822815, 'val': 0.9069498777389526}
+
+ETTh1_emb128_d2_ps32_pl720_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_13_16  
+MSE:{'test': 0.6038875579833984, 'val': 1.8321763277053833}, MAE:{'test': 0.5320616960525513, 'val': 0.9648147225379944}
+

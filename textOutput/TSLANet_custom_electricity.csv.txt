@@ -1,0 +1,45 @@
+custom_electricity_emb64_d2_ps16_pl96_bs32_mode_masking_17_08
+MSE:{'test': 0.12948819994926453, 'val': 0.10942834615707397}, MAE:{'test': 0.22546397149562836, 'val': 0.20287416875362396}
+
+custom_electricity_emb64_d2_ps16_pl96_bs32_mode_timae_18_41
+MSE:{'test': 0.12905611097812653, 'val': 0.10937225073575974}, MAE:{'test': 0.22328008711338043, 'val': 0.20098243653774261}
+
+custom_electricity_emb64_d2_ps16_pl96_bs32_mode_timae_linear_20_13
+MSE:{'test': 0.1294802874326706, 'val': 0.10979495197534561}, MAE:{'test': 0.22411096096038818, 'val': 0.20193982124328613}
+
+custom_electricity_emb64_d2_ps16_pl96_bs8_mode_contrastive_21_17
+MSE:{'test': 0.128559872508049, 'val': 0.10864083468914032}, MAE:{'test': 0.22291971743106842, 'val': 0.20052345097064972}
+
+custom_electricity_emb64_d2_ps16_pl96_bs32_mode_timae_linear_FIC0.01_00_20
+MSE:{'test': 0.1294802874326706, 'val': 0.10979495197534561}, MAE:{'test': 0.22411096096038818, 'val': 0.20193982124328613}
+
+custom_electricity_emb64_d2_ps16_pl96_bs8_mode_contrastive_FIC0.01_01_30
+MSE:{'test': 0.128559872508049, 'val': 0.10864083468914032}, MAE:{'test': 0.22291971743106842, 'val': 0.20052345097064972}
+
+custom_electricity_emb64_d2_ps16_pl96_bs32_mode_masking_22_48
+MSE:{'test': 0.12947826087474823, 'val': 0.10942824929952621}, MAE:{'test': 0.22548405826091766, 'val': 0.20288778841495514}
+
+custom_electricity_emb64_d2_ps16_pl96_bs32_mode_timae_00_16
+MSE:{'test': 0.12905611097812653, 'val': 0.10937225073575974}, MAE:{'test': 0.22328008711338043, 'val': 0.20098243653774261}
+
+custom_electricity_emb64_d2_ps16_pl96_bs32_mode_timae_linear_01_43
+MSE:{'test': 0.1294802874326706, 'val': 0.10979495197534561}, MAE:{'test': 0.22411096096038818, 'val': 0.20193982124328613}
+
+custom_electricity_emb64_d2_ps16_pl96_bs16_mode_contrastive_02_43
+MSE:{'test': 0.1284886747598648, 'val': 0.10913831740617752}, MAE:{'test': 0.22299189865589142, 'val': 0.2007938027381897}
+
+custom_electricity_emb64_d2_ps16_pl96_bs32_mode_timae_linear_FIC0.0001_17_33
+MSE:{'test': 0.12876340746879578, 'val': 0.10939706861972809}, MAE:{'test': 0.22313809394836426, 'val': 0.2010652869939804}
+
+custom_electricity_emb64_d2_ps16_pl96_bs32_mode_timae_linear_FIC0.0001_18_37
+MSE:{'test': 0.12876340746879578, 'val': 0.10939706861972809}, MAE:{'test': 0.22313809394836426, 'val': 0.2010652869939804}
+
+custom_electricity_emb64_d2_ps16_pl96_bs32_mode_timae_linear_FIC0.001_19_42
+MSE:{'test': 0.12880755960941315, 'val': 0.10940911620855331}, MAE:{'test': 0.22315756976604462, 'val': 0.20104411244392395}
+
+custom_electricity_emb64_d2_ps16_pl96_bs8_mode_contrastive_12_15
+MSE:{'test': 0.12874849140644073, 'val': 0.10884536057710648}, MAE:{'test': 0.2228420078754425, 'val': 0.20066218078136444}
+
+custom_electricity_emb64_d2_ps16_pl96_bs8_mode_contrastive_FIC0.001_15_12
+MSE:{'test': 0.12877725064754486, 'val': 0.10902877897024155}, MAE:{'test': 0.22338956594467163, 'val': 0.20129892230033875}
+

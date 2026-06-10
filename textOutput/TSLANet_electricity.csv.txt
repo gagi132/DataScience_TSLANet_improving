@@ -1,0 +1,27 @@
+electricity_emb128_d2_ps32_pl96_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_15_11  
+MSE:{'test': 0.1306026577949524, 'val': 0.11015405505895615}, MAE:{'test': 0.226518452167511, 'val': 0.2036794275045395}
+
+electricity_emb128_d2_ps32_pl96_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_17_18  
+MSE:{'test': 0.13419000804424286, 'val': 0.11356638371944427}, MAE:{'test': 0.2297734171152115, 'val': 0.2062302827835083}
+
+electricity_emb128_d2_ps32_pl96_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_masking_19_16  
+MSE:{'test': 0.1306026577949524, 'val': 0.11015405505895615}, MAE:{'test': 0.226518452167511, 'val': 0.2036794275045395}
+
+electricity_emb128_d2_ps32_pl96_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_20_09  
+MSE:{'test': 0.12888649106025696, 'val': 0.10968562960624695}, MAE:{'test': 0.2240545153617859, 'val': 0.20178751647472382}
+
+electricity_emb128_d2_ps32_pl192_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_11_24  
+MSE:{'test': 0.14485682547092438, 'val': 0.1229618489742279}, MAE:{'test': 0.23838575184345245, 'val': 0.2140144556760788}
+
+electricity_emb128_d2_ps32_pl336_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_masking_12_36  
+MSE:{'test': 0.1615753173828125, 'val': 0.13916443288326263}, MAE:{'test': 0.2570111155509949, 'val': 0.2309642881155014}
+
+electricity_emb128_d2_ps32_pl336_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_13_29  
+MSE:{'test': 0.16121846437454224, 'val': 0.13906855881214142}, MAE:{'test': 0.2563665807247162, 'val': 0.23029708862304688}
+
+electricity_emb128_d2_ps32_pl720_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_masking_14_21  
+MSE:{'test': 0.19887113571166992, 'val': 0.16937556862831116}, MAE:{'test': 0.28916165232658386, 'val': 0.2579216957092285}
+
+electricity_emb128_d2_ps32_pl720_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_15_17  
+MSE:{'test': 0.19775402545928955, 'val': 0.16950176656246185}, MAE:{'test': 0.28773030638694763, 'val': 0.257114976644516}
+

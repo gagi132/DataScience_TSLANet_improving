@@ -1,0 +1,18 @@
+traffic_emb128_d2_ps32_pl96_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_masking_18_25  
+MSE:{'test': 0.37152594327926636, 'val': 0.31974655389785767}, MAE:{'test': 0.2584049701690674, 'val': 0.22577306628227234}
+
+traffic_emb128_d2_ps32_pl96_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_00_19  
+MSE:{'test': 0.3692874610424042, 'val': 0.31860876083374023}, MAE:{'test': 0.2578047811985016, 'val': 0.22554773092269897}
+
+traffic_emb128_d2_ps32_pl192_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_masking_01_41  
+MSE:{'test': 0.38802266120910645, 'val': 0.32689282298088074}, MAE:{'test': 0.2676961123943329, 'val': 0.22928982973098755}
+
+traffic_emb128_d2_ps32_pl192_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_03_49  
+MSE:{'test': 0.3864893615245819, 'val': 0.32506057620048523}, MAE:{'test': 0.26690149307250977, 'val': 0.22744013369083405}
+
+traffic_emb128_d2_ps32_pl336_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_masking_05_13  
+MSE:{'test': 0.3973230719566345, 'val': 0.34184882044792175}, MAE:{'test': 0.2718539535999298, 'val': 0.23206442594528198}
+
+traffic_emb128_d2_ps32_pl336_bs16_mr0.4_ASB_True_AF_True_ICB_True_preTr_True_mode_timae_07_35  
+MSE:{'test': 0.3948169946670532, 'val': 0.340008020401001}, MAE:{'test': 0.2700488269329071, 'val': 0.23017893731594086}
+

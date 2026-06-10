@@ -1,0 +1,36 @@
+custom_exchange_rate_emb64_d2_ps16_pl96_bs32_mode_masking_13_16
+MSE:{'test': 0.09739720076322556, 'val': 0.14551801979541779}, MAE:{'test': 0.2217310220003128, 'val': 0.2680521011352539}
+
+custom_exchange_rate_emb64_d2_ps16_pl96_bs32_mode_timae_13_17
+MSE:{'test': 0.1051400825381279, 'val': 0.14885213971138}, MAE:{'test': 0.22938884794712067, 'val': 0.2768501341342926}
+
+custom_exchange_rate_emb64_d2_ps16_pl96_bs32_mode_timae_linear_13_18
+MSE:{'test': 0.10749611258506775, 'val': 0.15298184752464294}, MAE:{'test': 0.2334454357624054, 'val': 0.27823954820632935}
+
+custom_exchange_rate_emb64_d2_ps16_pl96_bs8_mode_contrastive_13_18
+MSE:{'test': 0.10741516947746277, 'val': 0.1691494584083557}, MAE:{'test': 0.23702958226203918, 'val': 0.28178390860557556}
+
+custom_exchange_rate_emb64_d2_ps16_pl96_bs32_mode_timae_linear_FIC0.1_13_24
+MSE:{'test': 0.10716299712657928, 'val': 0.15330567955970764}, MAE:{'test': 0.23281258344650269, 'val': 0.27856701612472534}
+
+custom_exchange_rate_emb64_d2_ps16_pl96_bs8_mode_contrastive_FIC0.1_13_25
+MSE:{'test': 0.1093960553407669, 'val': 0.16548360884189606}, MAE:{'test': 0.2383943796157837, 'val': 0.2793460190296173}
+
+custom_exchange_rate_emb64_d2_ps16_pl96_bs16_mode_contrastive_20_47
+MSE:{'test': 0.10474762320518494, 'val': 0.17281381785869598}, MAE:{'test': 0.23191353678703308, 'val': 0.29235801100730896}
+
+custom_exchange_rate_emb64_d2_ps16_pl96_bs32_mode_timae_linear_FIC0.0001_20_50
+MSE:{'test': 0.10740074515342712, 'val': 0.15269972383975983}, MAE:{'test': 0.2331935316324234, 'val': 0.2776866555213928}
+
+custom_exchange_rate_emb64_d2_ps16_pl96_bs16_mode_contrastive_FIC0.0001_20_51
+MSE:{'test': 0.10533106327056885, 'val': 0.1747673600912094}, MAE:{'test': 0.23262733221054077, 'val': 0.29341286420822144}
+
+custom_exchange_rate_emb64_d2_ps16_pl96_bs32_mode_timae_linear_FIC0.001_20_54
+MSE:{'test': 0.10742969065904617, 'val': 0.15271636843681335}, MAE:{'test': 0.23322895169258118, 'val': 0.2777080833911896}
+
+custom_exchange_rate_emb64_d2_ps16_pl96_bs8_mode_contrastive_19_47
+MSE:{'test': 0.10884127765893936, 'val': 0.15969905257225037}, MAE:{'test': 0.23845484852790833, 'val': 0.2812129259109497}
+
+custom_exchange_rate_emb64_d2_ps16_pl96_bs8_mode_contrastive_FIC0.001_19_52
+MSE:{'test': 0.10642684251070023, 'val': 0.1564486026763916}, MAE:{'test': 0.23570063710212708, 'val': 0.2763563394546509}
+
