@@ -67,25 +67,36 @@ pip install -r requirements.txt
 
 ## 📅 2. Data Preparation
 
-We evaluate our framework across 8 standard real-world benchmarks. Create a directory named `dataset/` at the repository root and arrange the files as follows:
+All datasets used in our experiments are bundled and provided through a single Google Drive archive for ease of reproduction.
+
+### Download
+
+Download the dataset package from:
+
+[Google Drive Link](https://drive.google.com/drive/folders/1Fcw9C_juhXZi0wXPUFaXriyYtXKTicNL?usp=sharing)
+
+After downloading, extract the archive into the repository root directory.
+
+Expected directory structure:
 
 ```text
-📁 dataset/
-├── 📁 ETT-small/
+dataset/
+├── ETT-small/
 │   ├── ETTh1.csv
 │   ├── ETTh2.csv
 │   ├── ETTm1.csv
 │   └── ETTm2.csv
-├── 📁 electricity/
+├── electricity/
 │   └── electricity.csv
-├── 📁 weather/
+├── weather/
 │   └── weather.csv
-├── 📁 exchange_rate/
+├── exchange_rate/
 │   └── exchange_rate.csv
-└── 📁 METRLA/
+└── METRLA/
     └── metr-la.h5
-
 ```
+
+The provided file directory already follows the specified structure.
 
 ### Public Access Links:
 
