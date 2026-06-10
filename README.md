@@ -1,15 +1,70 @@
 # Mitigating Extrapolation Mismatch in Time-Series Forecasting via Structural Minimalism and Curvature Constraints
 
-This repository contains the official implementation of our framework designed to mitigate the extrapolation mismatch in time-series forecasting using **Structural Minimalism (Strategy A)** and **Boundary-Selective Fisher Information Constraint (Strategy C)** built on top of TSLANet.
+This repository contains the implementation of our framework designed to mitigate extrapolation mismatch in time-series forecasting through **Structural Minimalism (Strategy A)** and **Boundary-Selective Fisher Information Constraint (Strategy C)** built upon TSLANet.
 
 ---
 
-## 🚀 Quick Start & Reproducibility (TL;DR)
+## 📌 Reproducibility Resources
 
-To reproduce the main METR-LA forecasting results (**Table 1** in the report, where Strategy A+C achieves a Test MSE of **0.9852** and a Generalization Gap of **34.4%**), execute the following single command after setting up the environment and data:
+To facilitate reproducibility, we provide:
+
+* `environment.yml` (recommended; reproduces the original experimental environment)
+* `requirements.txt` (alternative pip-based installation)
+* Google Drive dataset package (all benchmark datasets bundled in the required directory structure)
+* Reproduction commands for all reported configurations
+
+---
+
+## 🚀 Quick Start (3 Steps)
+
+### Step 1. Clone the Repository
 
 ```bash
-# Run the main reproduction script for Strategy A+C on METR-LA
+git clone <repository-url>
+cd <repository-name>
+```
+
+### Step 2. Set Up the Environment
+
+Recommended:
+
+```bash
+conda env create -f environment.yml
+conda activate tslanet
+```
+
+Alternative:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 3. Download the Dataset Package
+
+Download the dataset archive from:
+
+```text
+[Google Drive Link](https://drive.google.com/drive/folders/1Fcw9C_juhXZi0wXPUFaXriyYtXKTicNL?usp=sharing)
+```
+
+Extract the archive into the repository root directory so that the following structure is obtained:
+
+```text
+dataset/
+├── ETT-small/
+├── electricity/
+├── weather/
+├── exchange_rate/
+└── METRLA/
+```
+
+---
+
+## 🎯 Main Reproduction Command
+
+The following command reproduces the primary METR-LA result reported in Table 1, where **Strategy A+C** achieves a Test MSE of **0.9852** and a Generalization Gap of **34.4%**.
+
+```bash
 python ./Forecasting/TSLANet_Forecasting.py \
     --root_path ./dataset/METRLA \
     --data METRLA \
@@ -30,40 +85,60 @@ python ./Forecasting/TSLANet_Forecasting.py \
     --fic_lambda 0.001 \
     --fic_layerwise True \
     --seed 42
-
 ```
 
----
 
 ## 🛠️ 1. Environment Setup
 
-This project is built using Python 3.10+ and PyTorch Lightning. We recommend using Anaconda for clean environment management.
+This project provides two installation methods. For exact reproducibility of the reported results, we strongly recommend using the provided Conda environment specification.
 
 ### Option A: Using Conda (Recommended)
 
+Recreate the original experimental environment:
+
 ```bash
-# Create and activate environment
-conda create -n extrapolation python=3.10 -y
-conda activate extrapolation
+# Create the environment from the provided specification
+conda env create -f environment.yml
 
-# Install PyTorch with CUDA support (adjust cuXXX to match your GPU hardware)
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-
-# Install remaining dependencies
-pip install -r requirements.txt
-
+# Activate the environment
+conda activate tslanet
 ```
+
+This method reproduces the software environment used in our experiments and is the recommended approach for obtaining results consistent with those reported in the paper.
 
 ### Option B: Using pip
 
+Alternatively, install the required Python packages using:
+
 ```bash
 pip install -r requirements.txt
-
 ```
 
-> **Note on `requirements.txt` Content:** Ensure your file contains at least: `pytorch-lightning`, `scikit-learn`, `pandas`, `numpy`, `h5py`, `einops`.
+This method provides a lightweight setup but may not perfectly reproduce the original environment due to differences in system-level dependencies, CUDA versions, or package resolution.
 
----
+### Environment Verification
+
+After installation, verify that the environment is correctly configured:
+
+```bash
+python --version
+```
+
+Expected output:
+
+```text
+Python 3.10.x
+```
+
+```bash
+python -c "import torch; print(torch.__version__)"
+```
+
+If both commands execute successfully, the environment has been configured correctly.
+
+```
+```
+
 
 ## 📅 2. Data Preparation
 
