@@ -44,7 +44,7 @@ pip install -r requirements.txt
 Download the dataset archive from:
 
 ```text
-[Google Drive Link](https://drive.google.com/drive/folders/1Fcw9C_juhXZi0wXPUFaXriyYtXKTicNL?usp=sharing)
+https://drive.google.com/drive/folders/1Fcw9C_juhXZi0wXPUFaXriyYtXKTicNL?usp=sharing
 ```
 
 Extract the archive into the repository root directory so that the following structure is obtained:
